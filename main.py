@@ -233,7 +233,7 @@ def start_bot():
      show_menu = True
      while show_menu:
 
-        query = input("Enter your choice ::\n 1.Get Owner's Info. \n 2.Get Recent post of owner \n 3. Get Other User Info\n 4. Get User Recent Post \n 5. Download User's recent post \n 6. Like a Post  \n 7. Comment on a post \n 8. List Of Comments on a Post \n 9. Delete Negative comments \n 0. Exit ")
+        query = input("Enter your choice ::\n 1. Get Owner's Info. \n 2. Get Recent post of owner. \n 3. Get Other User Info.\n 4. Get User Recent Post. \n 5. Download User's recent post. \n 6. Like a Post.  \n 7. Comment on a post. \n 8. List Of Comments on a Post. \n 9. Delete Negative comments. \n 0. Exit. ")
 
         if query ==1:
 
@@ -265,7 +265,7 @@ def start_bot():
         elif query==0:
              exit()
         else:
-            print "Invalid choice"
+            print "Invalid choice.Try again!!"
 
 #-----------------------------------------------------------------------------------------------------------------------#
 #Function call to run the app
